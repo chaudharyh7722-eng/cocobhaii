@@ -1,7 +1,7 @@
 import{test, expect, Page} from  "@playwright/test";
 import{internship_page} from "../pages/Internship";
 
-const baseUrl = "https://dev.bestseoproviders.com/cocobhaii/job-type/internship/";
+const baseUrl = "https://................../";
 test.beforeEach(async({page})=>
     {
         const start = Date.now();
