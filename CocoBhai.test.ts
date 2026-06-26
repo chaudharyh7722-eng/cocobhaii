@@ -1,8 +1,8 @@
 import{test, expect, Locator, Page} from "@playwright/test";
 test('cocobhai', async({page}) =>
     {
-        await page.goto("https://dev.bestseoproviders.com/cocobhaii/");
-        await expect(page).toHaveURL("https://dev.bestseoproviders.com/cocobhaii/");
+        await page.goto("https://.............");
+        await expect(page).toHaveURL("https://................");
         const logo: Locator = page.locator("div[data-id='fe29496']> *");
         await logo.isVisible();
         const Count: Locator = page.locator("#menu-1-e0ec0fe>.menu-item");
@@ -16,8 +16,8 @@ test('cocobhai', async({page}) =>
         await Count.last().click();
         const currenturl = await page.url();
         console.log("CurrentUrl ", currenturl);
-        await page.waitForURL("https://dev.bestseoproviders.com/cocobhaii/contact-us/");
-        await expect(page).toHaveURL("https://dev.bestseoproviders.com/cocobhaii/contact-us/");  
+        await page.waitForURL("https://..............");
+        await expect(page).toHaveURL("https://.................");  
         console.log(await page.title());
         await page.goBack();
         
@@ -25,7 +25,7 @@ test('cocobhai', async({page}) =>
         await Count.nth(3).click();
         const abtUrl = await page.url();
         console.log("About Us ", abtUrl);
-        await expect(page).toHaveURL("https://dev.bestseoproviders.com/cocobhaii/about/");
+        await expect(page).toHaveURL("https://................");
         console.log(await page.title());
         await page.goBack();
 
@@ -33,7 +33,7 @@ test('cocobhai', async({page}) =>
         await Count.nth(2).click();
         const internUrl = await page.url();
         console.log("Intern ", internUrl);
-        await expect(page).toHaveURL("https://dev.bestseoproviders.com/cocobhaii/job-type/internship/");
+        await expect(page).toHaveURL("https://.............");
         console.log(await page.title());
         await page.goBack();
 
@@ -41,7 +41,7 @@ test('cocobhai', async({page}) =>
         await Count.nth(1).click();
         const jobUrl = await page.url();
         console.log("Job ", jobUrl);
-        await expect(page).toHaveURL("https://dev.bestseoproviders.com/cocobhaii/jobs/");
+        await expect(page).toHaveURL("https://....................");
         console.log(await page.title());
         
 
