@@ -1,7 +1,7 @@
 import {test, expect } from "@playwright/test";
 import { contactUs} from "../pages/contactUs";
 
-const baseUrl = "https://dev.bestseoproviders.com/cocobhaii/contact-us/";
+const baseUrl = "https://......................";
 test.beforeEach(async({page})=>
     {
         await page.goto(baseUrl);
